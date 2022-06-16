@@ -1,6 +1,6 @@
 
 // 1) Creare un cliclo for che stampi in console numeri da 1 a 100
-//      - Bisogna utilizzare "for (let i = 0; i > 100; index = i--);
+//      - Bisogna utilizzare "for (let i = 1; i <= 100; index = i++);
 // 2) Stampare in console che i multipli (divisibili) di 3 diventino "Fizz"
 // 3) Stampare in console che i multipli (divisibili) di 5 diventino "Buzz"
 //      - Ultilizzare gli "if" dentro i cicli
@@ -12,8 +12,17 @@ for (let index = 1; index <= 100; index++) {
     console.log(index);
 
     if (index % 3 == 0) {
-        let indexFizz = ('Fizz');
+        let indexFizz = 'Fizz';
         console.log(indexFizz);
+    } else {
+
+    }
+
+    if (index % 5 == 0) {
+        let indexBuzz = 'Buzz';
+        console.log(indexBuzz);
+    } else {
+
     }
 
 }

@@ -3,6 +3,7 @@
 //      - Bisogna utilizzare "for (let i = 1; i <= 100; index = i++);
 // 2) Stampare in console che i multipli (divisibili) di 3 diventino "Fizz"
 // 3) Stampare in console che i multipli (divisibili) di 5 diventino "Buzz"
+// 4) Stampare in console che i multipli (divisibili) di 3 e 5 diventino "FizzBuzz"
 //      - Ultilizzare gli "if" dentro i cicli
 
 // Per capire se un numero è divisibile per un altro utilizzare la funzione "%" (modulo)
@@ -12,15 +13,22 @@ for (let index = 1; index <= 100; index++) {
     console.log(index);
 
     if (index % 3 == 0) {
-        let indexFizz = 'Fizz';
-        console.log(indexFizz);
+        let wordFizz = 'Fizz';
+        console.log(wordFizz);
     } else {
 
     }
 
     if (index % 5 == 0) {
-        let indexBuzz = 'Buzz';
-        console.log(indexBuzz);
+        let wordBuzz = 'Buzz';
+        console.log(wordBuzz);
+    } else {
+
+    }
+
+    if ((index % 3 == 0) && (index % 5 == 0)) {
+        let wordFizzBuzz = 'FizzBuzz';
+        console.log(wordFizzBuzz);
     } else {
 
     }

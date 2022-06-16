@@ -11,8 +11,9 @@
 for (let index = 1; index <= 100; index++) {
     console.log(index);
 
-    // if (index % 3 == 0) {
-    //     let index = ('Fizz');
-    //     console.log(index);
-    // }
+    if (index % 3 == 0) {
+        let indexFizz = ('Fizz');
+        console.log(indexFizz);
+    }
+
 }
